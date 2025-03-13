@@ -80,17 +80,39 @@ void ImageWidget::load_gltexture()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-    // Upload pixels into texture
-    glTexImage2D(
-        GL_TEXTURE_2D,
-        0,
-        GL_RGBA,
-        image_width_,
-        image_height_,
-        0,
-        GL_RGBA,
-        GL_UNSIGNED_BYTE,
-        data_->data());
+    // Upload pixels into texture (different type of channels)
+    if (data_->channels() == 3)
+    {
+        glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
+        glTexImage2D(
+            GL_TEXTURE_2D,
+            0,
+            GL_RGB,
+            image_width_,
+            image_height_,
+            0,
+            GL_RGB,
+            GL_UNSIGNED_BYTE,
+            data_->data());
+        glPixelStorei(GL_UNPACK_ALIGNMENT, 4); 
+    }
+    else if (data_->channels() == 4)
+    {
+        glTexImage2D(
+            GL_TEXTURE_2D,
+            0,
+            GL_RGBA,
+            image_width_,
+            image_height_,
+            0,
+            GL_RGBA,
+            GL_UNSIGNED_BYTE,
+            data_->data());
+    }
+    else
+    {
+        throw std::runtime_error("Unsupported number of channels");
+    }
 }
 
 void ImageWidget::draw_image()
