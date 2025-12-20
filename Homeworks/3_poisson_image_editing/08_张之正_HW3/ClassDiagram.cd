@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="USTC_CG::CloneMethod">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAEAAAAAAAIAAAgAAAACQAQIAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\clone\clone_method.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::Paste">
+    <Position X="3.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAACAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\clone\paste.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::SeamlessCloner">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICAAIEAEAAAAAQCBAAAAACAkAAIABAAUhAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\clone\seamless_cloner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::PoissonWindow">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAgAAAAAiApIAAAAAAAAAARAAgABAACBAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\poisson_window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::Line">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIEAAAAAAAAgAEAAAAIAAAAAAAAAAAAAAAAAAAAFAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\shapes\line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::Rect">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAAAgAEAAAAIAQAAAACCAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\shapes\rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::Shape">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="USTC_CG::Shape::Config" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\shapes\shape.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAABAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\shapes\shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::SourceImageWidget">
+    <Position X="11" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="USTC_CG::SourceImageWidget::RegionType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\source_image_widget.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAMQABSAhAAIAAAAAAAAAAQBAISAACgAACCI=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\source_image_widget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USTC_CG::TargetImageWidget">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="USTC_CG::TargetImageWidget::CloneType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\target_image_widget.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AYgCAAAAAkAAQAIAAAIAAACAAQAACQBAAQAAEABACQA=</HashCode>
+      <FileName>C:\Users\0129294\Desktop\Learning\2025spring\CG\Homework\lab3\Framework2D\src\assignments\3_PoissonImageEditing\target_image_widget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
